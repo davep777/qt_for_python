@@ -14,6 +14,10 @@ label1.setFont(QFont("Arial", 10,))
 label1.setStyleSheet("background-color: purple; padding: 5px")
 
 label2 = QLabel(window)
+#fizyczny obrazek
+#pixmap = QPixmap("C:/Users/Davev/Desktop/Python/qt/obrazek.jpg")
+#scale_pixamp = pixmap.scaled(50,50)
+#label2.setPixmap(scale_pixamp)
 pixmap = QPixmap(50,50)
 pixmap.fill(Qt.blue)
 label2.setPixmap(pixmap)
